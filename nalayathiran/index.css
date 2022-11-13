@@ -1,0 +1,136 @@
+.header{
+    background-color: black;
+    height:3.5rem;
+    width:100%;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav_bar{
+ display:flex;
+ justify-content:space-around;
+ align-items: center;
+ width:20rem;
+}
+
+.nav_bar a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    border: 1rem;
+}
+
+
+.predict_img{
+    width:60%;
+    height:15%;
+}
+.left_side_bar{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.body h1{
+font-size: 4rem;
+color:maroon;
+}
+
+.about h1{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 199, 5);
+}
+.problem{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.classify h1{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 199, 5);
+}
+
+.skin_disease{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.register_img{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.register_buttom{
+ background-color: black;
+ color:white;
+ width:100%;
+ padding: 0.7rem;
+ font-size: 1rem;
+}
+
+.full_form{
+    background-color:white;
+   display: flex;
+   flex-direction: column;
+   width:30%;
+   justify-content: space-around;
+     margin:2rem 33rem ;
+
+}
+
+.inputs{
+    padding: 0.7rem;
+}
+
+.already_exists{
+margin-left: 33rem;
+padding-bottom: 1rem;
+font-size: 1.2rem;
+}
+
+.outer_form{
+    border: 1rem solid #f2f4f8;
+}
+
+.total_block{
+    display: flex;
+    justify-content: space-around;
+}
+.pred_para{
+    margin: 2rem 0rem 4rem 14rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 199, 5);
+}
+.click_me_button{
+    margin-left: 11rem;
+    padding:0.2rem 0rem;
+}
+.login_button{
+    background-color: black;
+    color:white;
+    padding: 0.5rem 3.5rem;
+}
+.change_color{
+    color:rgb(17, 230, 17);
+    font-size: 1.3rem;
+}
+.logout_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
